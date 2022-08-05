@@ -1,0 +1,150 @@
+.formcontato {
+    background-color: var(--cor-de-fundo2);
+}
+
+.formcontato__contacto {
+    padding: 1rem;
+}
+
+.formcontato__img {
+    display: none;
+}
+
+.formcontato__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.form {
+    margin-top: 1rem;
+}
+
+label {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+input {
+    
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 70%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    margin: 1.5rem 1rem;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 70%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    margin: 1.5rem 1rem;
+}
+
+.form-submit {
+    text-decoration:none;
+    font-weight:600;
+    font-size:14px;
+    padding: 0.5rem 1rem;
+    border-color: black;
+    color: var(--cor-de-fundo2);
+    background: black;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    max-width: 50%;
+}
+
+@media screen and (min-width: 860px) {
+
+    .formcontato__contacto {
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .formcontato__title {
+        margin-left: 1rem;
+    }
+
+    .formcontato__subtext {
+        margin-left: 1rem;
+    }
+    
+    input {
+        padding: 0.5rem 5.5rem;
+        border-bottom: 0;
+        margin: 1rem 1rem;
+    }
+
+    textarea {
+        padding: 1.5rem 5.5rem;
+        border-bottom: 0;
+        margin: 1rem 1rem;
+    } 
+
+    .formcontato__img{
+        display: block;
+        max-width: 300px;
+        border-radius: 1rem;
+    }
+	.formcontato__contacto {
+    padding: 3rem;
+    }
+ }
+ 
+ 
+ @media screen and (min-width: 992px) {
+    .formcontato__contacto {
+        padding: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .formcontato__title {
+        margin-left: 1rem;
+    }
+
+    .formcontato__subtext {
+        margin-left: 1rem;
+    }
+    
+    input {
+        padding: 0.5rem 5.5rem;
+        border-bottom: 0;
+        margin: 1rem 1rem;
+    }
+
+    textarea {
+        padding: 1.5rem 5.5rem;
+        border-bottom: 0;
+        margin: 1rem 1rem;
+    } 
+
+    .formcontato__img{
+        display: block;
+        max-width: 300px;
+        border-radius: 1rem;
+    }
+	.formcontato__contacto {
+    padding: 3rem;
+    }
+ }

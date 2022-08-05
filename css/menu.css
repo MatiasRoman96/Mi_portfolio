@@ -1,0 +1,60 @@
+.tudo {
+    background: var(--cor-de-fundo2);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 1rem 1rem;    
+}
+
+.menu__header {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+.menu__title {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.menu__list {
+    display: none;
+}
+
+.menu__boton {
+    width: 30%;
+    color: var(--cor-de-fundo2);;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding-top: 0.4rem;
+    background: black;
+}
+
+@media screen and (min-width: 860px) {
+    
+    }
+
+
+@media screen and (min-width: 992px) {
+   .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content:end
+   }
+   
+   .menu__list__item {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+   }
+    
+   .menu__boton {
+    display: none;
+   }
+}

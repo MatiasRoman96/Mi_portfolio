@@ -1,0 +1,60 @@
+.academic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.academic__title {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;   
+}
+
+.academic__courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.academic__courses__box {
+    margin-top: 1rem;
+}
+
+.academic__courses__item__title {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.academic__courses__item__subtitle {
+    text-align: center;
+}
+
+.academic__courses__item__img {
+    text-align: center;
+}
+
+.logo__alura {
+    max-width: 70%;
+}
+
+@media screen and (min-width: 860px) {
+	.academic__courses {
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+ }
+ 
+ 
+ @media screen and (min-width: 992px) {
+	.academic__courses {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-around;
+        }
+	
+ }

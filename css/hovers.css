@@ -1,0 +1,19 @@
+.menu__boton:hover {
+    color: white;
+}
+
+.menu__list__item:hover {
+    text-decoration: underline;
+} 
+
+.experiencia__botao--repo:hover {
+    color: var(--cor-de-fundo2);
+}
+
+.experience__botao--demo:hover {
+    color: var(--cor-de-fundo2);
+}
+
+.form-submit:hover {
+    color: white;
+}

@@ -1,0 +1,30 @@
+.about {
+    background-color: var(--cor-de-fundo2);
+    padding: 2rem 2rem;   
+}
+
+.about__title {
+    font-size: 22px;
+    font-weight: 700;
+   
+}
+
+@media screen and (min-width: 860px) {
+   .about {
+    padding: 3rem 4rem;
+   }
+   .about__paragraph {
+    margin-top: 1rem;
+   }
+}
+
+
+@media screen and (min-width: 992px) {
+    .about {
+        padding: 3rem 4rem;
+       }
+       .about__paragraph {
+        margin-top: 1rem;
+       }
+   
+}
